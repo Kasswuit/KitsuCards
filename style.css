@@ -1,0 +1,316 @@
+/* Color Constants */
+:root 
+{
+    --color-primary: #FF5300;
+    --color-secondary: #FF8100;
+    --color-background: #FFDFA6;
+    
+}
+/* Body */
+body 
+{
+    background-color: var(--color-background);
+    font-family: 'Klee One', cursive;
+}
+
+/* Bootstrap */
+.container-fluid 
+{
+    max-width: 1140px;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+    line-height: 1;
+}
+
+h1 
+{
+    font-size: 96px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+h2 
+{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+h3 
+{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h4 
+{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h5 
+{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h6 
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Header Formatting */
+.title-nav-item 
+{
+    padding: 0 15px; /* Padding Between Nav Items */
+}
+
+.title-selection 
+{
+    text-align: center; 
+    margin-bottom: .2em;
+} 
+.title-selection-chapter 
+{
+    text-align: center; 
+    margin-bottom: 1em;
+}
+
+/* Tags */
+a,
+a:focus,
+a:hover 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Details */
+details 
+{
+}
+
+details[open] > summary::-webkit-details-marker 
+{
+    font-size: 1.5em;
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+}
+
+details > summary::-webkit-details-marker 
+{
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+
+details > summary::-webkit-details-marker 
+{
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+
+details > summary::-webkit-details-marker 
+{
+    font-size: 1.5em;
+    transition: transform 0.3s;
+}
+
+/* Buttons */
+
+.button{
+    background-color: var(--color-secondary);
+    border: 2px solid black;
+    color: var(--color-background);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+/* Lists */
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li 
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+span 
+{
+    font-weight: bold;
+}
+
+span:nth-child(1) 
+{
+    width: 100px;
+}
+
+span:nth-child(2) 
+{
+    width: 100px;
+}
+
+
+/* Cards */
+.card 
+{
+    background-color: var(--color-primary);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    color: #FFE0A5;
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    min-height: 155px;
+}
+
+.card:hover 
+{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stretched-link::after 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.disabled 
+{
+    background-color: gray;
+    pointer-events: none;
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+
+
+/* Word List */
+.row 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col 
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #d5bc9c;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.category-header input[type=checkbox] {
+    margin-left: auto;
+}
+
+.drop-down-icon {
+    margin-right:.5em;
+}
+
+.word {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+
+.word:first-child 
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.word:last-child 
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.continue-button
+{
+    margin-top: 2em;
+    text-align: center;
+}
+/* Inputs */
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type=checkbox] + .word 
+{
+    background-color: #e0e0e0;
+}
+
+input[type=checkbox] 
+{
+    background-color: #fff;
+    position: relative;
+}
+
+input[type=checkbox]:after 
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.english,
+.hiragana,
+.romanji 
+{
+    flex: 1;
+    padding-right: 30px;
+    text-align: left;
+}
