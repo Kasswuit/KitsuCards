@@ -1,0 +1,331 @@
+[
+	{
+		"English":"Kanji",
+		"Romanji":"Kanji",
+		"Hiragana":"かんじ",
+		"Kanji":"漢字",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Textbook",
+		"Romanji":"Kyookasho",
+		"Hiragana":"きょうかしょ",
+		"Kanji":"教科書",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Page",
+		"Romanji":"Peeji",
+		"Hiragana":"ページ",
+		"Kanji":"",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Next",
+		"Romanji":"Tsugi",
+		"Hiragana":"つぎ",
+		"Kanji":"次",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Money",
+		"Romanji":"Okane",
+		"Hiragana":"おかね",
+		"Kanji":"お金",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Baggage",
+		"Romanji":"Nimotsu",
+		"Hiragana":"にもつ",
+		"Kanji":"荷物",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Personal Computer",
+		"Romanji":"Pankon",
+		"Hiragana":"パンコン",
+		"Kanji":"",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Shower",
+		"Romanji":"Shawaa",
+		"Hiragana":"シャワー",
+		"Kanji":"",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Air Conditioner",
+		"Romanji":"Eakon",
+		"Hiragana":"エアコン",
+		"Kanji":"",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Electricity/Light",
+		"Romanji":"Denki",
+		"Hiragana":"でんき",
+		"Kanji":"電気",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Window",
+		"Romanji":"Mado",
+		"Hiragana":"まど",
+		"Kanji":"窓",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Train",
+		"Romanji":"Densha",
+		"Hiragana":"でんしゃ",
+		"Kanji":"電車",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Country/Place of Origin",
+		"Romanji":"Kuni",
+		"Hiragana":"くに",
+		"Kanji":"国",
+		"Category":"Nouns"
+	},
+	{
+		"English":"This Week",
+		"Romanji":"Konshuu",
+		"Hiragana":"こんしゅう",
+		"Kanji":"今週",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Next Week",
+		"Romanji":"Raishuu",
+		"Hiragana":"らいしゅう",
+		"Kanji":"来週",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Next Year",
+		"Romanji":"Rainen",
+		"Hiragana":"らいねん",
+		"Kanji":"来年",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Night",
+		"Romanji":"Yoru",
+		"Hiragana":"よる",
+		"Kanji":"夜",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Tough (situation)",
+		"Romanji":"Taihen(na)",
+		"Hiragana":"たいへん(な)",
+		"Kanji":"大変",
+		"Category":"な-adjective"
+	},
+	{
+		"English":"To Play",
+		"Romanji":"Asobu",
+		"Hiragana":"あそぶ",
+		"Kanji":"遊ぶ",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Hurry",
+		"Romanji":"Isogu",
+		"Hiragana":"いそぐ",
+		"Kanji":"急ぐ",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Return",
+		"Romanji":"Kaesu",
+		"Hiragana":"かえす",
+		"Kanji":"返す",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Turn Off/To Erase",
+		"Romanji":"Kesu",
+		"Hiragana":"けす",
+		"Kanji":"消す",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Die",
+		"Romanji":"Shinu",
+		"Hiragana":"しぬ",
+		"Kanji":"死ぬ",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Sit Down",
+		"Romanji":"Suwaru",
+		"Hiragana":"すわる",
+		"Kanji":"座る",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Stand Up",
+		"Romanji":"Tatsu",
+		"Hiragana":"たつ",
+		"Kanji":"立つ",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Smoke",
+		"Romanji":"Suu",
+		"Hiragana":"すう",
+		"Kanji":"吸う",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Use",
+		"Romanji":"Tsukau",
+		"Hiragana":"つかう",
+		"Kanji":"使う",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Help",
+		"Romanji":"Tetsudau",
+		"Hiragana":"てつだう",
+		"Kanji":"手伝う",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Enter",
+		"Romanji":"Hairu",
+		"Hiragana":"はいる",
+		"Kanji":"入る",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Carry/To Hold",
+		"Romanji":"Motsu",
+		"Hiragana":"もつ",
+		"Kanji":"持つ",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To be Absent/To rest",
+		"Romanji":"Yasumu",
+		"Hiragana":"やすむ",
+		"Kanji":"休つ",
+		"Category":"う-Verbs"
+	},
+	{
+		"English":"To Open (Something)",
+		"Romanji":"Akeru",
+		"Hiragana":"あける",
+		"Kanji":"開ける",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Close (Something)",
+		"Romanji":"Shimeru",
+		"Hiragana":"しめる",
+		"Kanji":"閉ねる",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Teach/To Instruct",
+		"Romanji":"Oshieru",
+		"Hiragana":"おしえる",
+		"Kanji":"教える",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Forget",
+		"Romanji":"Wasureru",
+		"Hiragana":"わすれる",
+		"Kanji":"忘れる",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Get Off",
+		"Romanji":"Oriru",
+		"Hiragana":"おりる",
+		"Kanji":"降りる",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Borrow",
+		"Romanji":"Kariru",
+		"Hiragana":"かりる",
+		"Kanji":"借りる",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Take a Shower",
+		"Romanji":"Abiru",
+		"Hiragana":"あびる",
+		"Kanji":"浴びる",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Turn On",
+		"Romanji":"Tsukeru",
+		"Hiragana":"つける",
+		"Kanji":"",
+		"Category":"る-Verbs"
+	},
+	{
+		"English":"To Call",
+		"Romanji":"Denwasuru",
+		"Hiragana":"でんわする",
+		"Kanji":"電話する",
+		"Category":"Irregular Verbs"
+	},
+	{
+		"English":"To Bring (A Person)",
+		"Romanji":"Tsuretekuru",
+		"Hiragana":"つれてくる",
+		"Kanji":"連れてくる",
+		"Category":"Irregular Verbs"
+	},
+	{
+		"English":"To Bring (A Thing)",
+		"Romanji":"Mottekuru",
+		"Hiragana":"もってくる",
+		"Kanji":"持ってくる",
+		"Category":"Irregular Verbs"
+	},
+	{
+		"English":"Later on",
+		"Romanji":"Atode",
+		"Hiragana":"あとで",
+		"Kanji":"後とで",
+		"Category":"Expressions"
+	},
+	{
+		"English":"Right Away",
+		"Romanji":"Sugu",
+		"Hiragana":"すぐ",
+		"Kanji":"",
+		"Category":"Expressions"
+	},
+	{
+		"English":"Slowly",
+		"Romanji":"Yukkuri",
+		"Hiragana":"ゆっくり",
+		"Kanji":"",
+		"Category":"Expressions"
+	},
+	{
+		"English":"No Thank You",
+		"Romanji":"Kekkodesu",
+		"Hiragana":"けっこうです",
+		"Kanji":"結構です",
+		"Category":"Expressions"
+	},
+	{
+		"English":"Really?",
+		"Romanji":"Hontoodesuka",
+		"Hiragana":"ほんとうですか",
+		"Kanji":"本当ですか",
+		"Category":"Expressions"
+	}
+]

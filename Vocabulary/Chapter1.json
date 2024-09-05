@@ -1,0 +1,541 @@
+[
+	{
+		"English":"College/University",
+		"Romanji":"Daigaku",
+		"Hiragana":"だいがく",
+		"Kanji":"大学",
+		"Category":"Nouns"
+	},
+	{
+		"English":"High School",
+		"Romanji":"Kookoo",
+		"Hiragana":"こうこう",
+		"Kanji":"高校",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Student",
+		"Romanji":"Gakusee",
+		"Hiragana":"がくせい",
+		"Kanji":"学生",
+		"Category":"Nouns"
+	},
+	{
+		"English":"College Student",
+		"Romanji":"Daigakusee",
+		"Hiragana":"だいがくせい",
+		"Kanji":"大学生",
+		"Category":"Nouns"
+	},
+	{
+		"English":"International Student",
+		"Romanji":"Ryuugakusee",
+		"Hiragana":"りゅうがくせい",
+		"Kanji":"留学生",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Teacher/Professor",
+		"Romanji":"Sensee",
+		"Hiragana":"せんせい",
+		"Kanji":"先生",
+		"Category":"Nouns"
+	},
+	{
+		"English":"...-year Student",
+		"Romanji":"...nensee",
+		"Hiragana":"ねんせい",
+		"Kanji":"年生",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Major",
+		"Romanji":"Senkoo",
+		"Hiragana":"せんこう",
+		"Kanji":"専攻",
+		"Category":"Nouns"
+	},
+	{
+		"English":"I/Me",
+		"Romanji":"Watashi",
+		"Hiragana":"わたし",
+		"Kanji":"私",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Friend",
+		"Romanji":"Tomodachi",
+		"Hiragana":"ともだち",
+		"Kanji":"友達",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Mr./Mrs.",
+		"Romanji":"...San",
+		"Hiragana":"さん",
+		"Kanji":"",
+		"Category":"Nouns"
+	},
+	{
+		"English":"(Nationality) People",
+		"Romanji":"...Jin",
+		"Hiragana":"じん",
+		"Kanji":"人",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Now",
+		"Romanji":"Ima",
+		"Hiragana":"いま",
+		"Kanji":"今",
+		"Category":"Nouns"
+	},
+	{
+		"English":"A.M.",
+		"Romanji":"Gozen",
+		"Hiragana":"ごぜん",
+		"Kanji":"午前",
+		"Category":"Nouns"
+	},
+	{
+		"English":"P.M.",
+		"Romanji":"Gogo",
+		"Hiragana":"ごご",
+		"Kanji":"午後",
+		"Category":"Nouns"
+	},
+	{
+		"English":"... o'clock",
+		"Romanji":"Ji",
+		"Hiragana":"じ",
+		"Kanji":"時",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Half past...",
+		"Romanji":"Han",
+		"Hiragana":"はん",
+		"Kanji":"半",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Japan",
+		"Romanji":"Nihon",
+		"Hiragana":"にほん",
+		"Kanji":"本日",
+		"Category":"Nouns"
+	},
+	{
+		"English":"United States",
+		"Romanji":"Amerika",
+		"Hiragana":"アメリカ",
+		"Kanji":"",
+		"Category":"Nouns"
+	},
+	{
+		"English":"...language",
+		"Romanji":"Go",
+		"Hiragana":"ご",
+		"Kanji":"語",
+		"Category":"Nouns"
+	},
+	{
+		"English":"...-years old",
+		"Romanji":"sai",
+		"Hiragana":"さい",
+		"Kanji":"歳",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Telephone",
+		"Romanji":"Denwa",
+		"Hiragana":"でんわ",
+		"Kanji":"電話",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Number...",
+		"Romanji":"Ban",
+		"Hiragana":"ばん",
+		"Kanji":"番",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Number",
+		"Romanji":"Ban",
+		"Hiragana":"ばんごう",
+		"Kanji":"番号",
+		"Category":"Nouns"
+	},
+	{
+		"English":"Name",
+		"Romanji":"Namae",
+		"Hiragana":"なまえ",
+		"Kanji":"名前",
+		"Category":"Nouns"
+	},
+	{
+		"English":"What",
+		"Romanji":"Nan/Nani",
+		"Hiragana":"なに/なん",
+		"Kanji":"何",
+		"Category":"Expressions"
+	},
+	{
+		"English":"Um...",
+		"Romanji":"Anoo...",
+		"Hiragana":"あのう...",
+		"Kanji":"",
+		"Category":"Expressions"
+	},
+	{
+		"English":"Yes",
+		"Romanji":"Hai",
+		"Hiragana":"はい",
+		"Kanji":"",
+		"Category":"Expressions"
+	},
+	{
+		"English":"That's Right",
+		"Romanji":"Soo desu",
+		"Hiragana":"そうです",
+		"Kanji":"",
+		"Category":"Expressions"
+	},
+	{
+		"English":"I see/Is that so?",
+		"Romanji":"Soo desu ka",
+		"Hiragana":"そうですか",
+		"Kanji":"",
+		"Category":"Expressions"
+	},
+	{
+		"English": "Good Morning",
+		"Romanji": "Ohayoo",
+		"Hiragana": "おはよう",
+		"Kanji": "お早う",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Good Morning (polite)",
+		"Romanji": "Ohayoo gozaimasu",
+		"Hiragana": "おはようございます",
+		"Kanji": "お早うございます",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Good Afternoon",
+		"Romanji": "Konnichiwa",
+		"Hiragana": "こんにちは",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Good Evening",
+		"Romanji": "Konbanwa",
+		"Hiragana": "こんばんは",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Good-bye",
+		"Romanji": "Sayoonara",
+		"Hiragana": "さようなら",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Thank you",
+		"Romanji": "Arigatoo",
+		"Hiragana": "ありがとう",
+		"Kanji": "有難う",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Thank you (polite)",
+		"Romanji": "Arigatoo gozaimasu",
+		"Hiragana": "ありがとうございます",
+		"Kanji": "有難うございます",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Excuse me/I'm sorry",
+		"Romanji": "Sumimasen",
+		"Hiragana": "すみません",
+		"Kanji": "済みません",
+		"Category": "Greetings"
+	},
+	{
+		"English": "No/Not at all",
+		"Romanji": "Iie",
+		"Hiragana": "いいえ",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "I'll go and come back",
+		"Romanji": "Itte kimasu",
+		"Hiragana": "いってきます",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Please go and come back",
+		"Romanji": "Itte rasshai",
+		"Hiragana": "いってらっしゃい",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "I'm home",
+		"Romanji": "Tadaima",
+		"Hiragana": "ただいま",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Welcome home",
+		"Romanji": "Okaeri (nasai)",
+		"Hiragana": "おかえり（なさい）",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Thank you for the meal (before eating)",
+		"Romanji": "Itadakimasu",
+		"Hiragana": "いただきます",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Thank you for the meal (after eating)",
+		"Romanji": "Gochisoo sama (deshita)",
+		"Hiragana": "ごちそうさま（でした）",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "How do you do?",
+		"Romanji": "Hajimemashite",
+		"Hiragana": "はじめまして",
+		"Kanji": "始めまして",
+		"Category": "Greetings"
+	},
+	{
+		"English": "I am...",
+		"Romanji": "...desu",
+		"Hiragana": "...です",
+		"Kanji": "",
+		"Category": "Greetings"
+	},
+	{
+		"English": "Nice to meet you",
+		"Romanji": "Yoroshiku onegaishimasu",
+		"Hiragana": "よろしくおねがいします",
+		"Kanji": "宜しくお願いします",
+		"Category": "Greetings"
+	},
+	{
+		"English": "0",
+		"Romanji": "Zero/Ree",
+		"Hiragana": "ゼロ/れい",
+		"Kanji": "",
+		"Category": "Numbers"
+	},
+	{
+		"English": "1",
+		"Romanji": "Ichi",
+		"Hiragana": "いち",
+		"Kanji": "一",
+		"Category": "Numbers"
+	},
+	{
+		"English": "2",
+		"Romanji": "Ni",
+		"Hiragana": "に",
+		"Kanji": "二",
+		"Category": "Numbers"
+	},
+	{
+		"English": "3",
+		"Romanji": "San",
+		"Hiragana": "さん",
+		"Kanji": "三",
+		"Category": "Numbers"
+	},
+	{
+		"English": "4",
+		"Romanji": "Yon/Shi",
+		"Hiragana": "よん/し",
+		"Kanji": "四",
+		"Category": "Numbers"
+	},
+	{
+		"English": "5",
+		"Romanji": "Go",
+		"Hiragana": "ご",
+		"Kanji": "五",
+		"Category": "Numbers"
+	},
+	{
+		"English": "6",
+		"Romanji": "Roku",
+		"Hiragana": "ろく",
+		"Kanji": "六",
+		"Category": "Numbers"
+	},
+	{
+		"English": "7",
+		"Romanji": "Nana/Shichi",
+		"Hiragana": "なな/しち",
+		"Kanji": "七",
+		"Category": "Numbers"
+	},
+	{
+		"English": "8",
+		"Romanji": "Hachi",
+		"Hiragana": "はち",
+		"Kanji": "八",
+		"Category": "Numbers"
+	},
+	{
+		"English": "9",
+		"Romanji": "Kyuu/Ku",
+		"Hiragana": "きゅう/く",
+		"Kanji": "九",
+		"Category": "Numbers"
+	},
+	{
+		"English": "10",
+		"Romanji": "Juu",
+		"Hiragana": "じゅう",
+		"Kanji": "十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "11",
+		"Romanji": "Juu ichi",
+		"Hiragana": "じゅういち",
+		"Kanji": "十一",
+		"Category": "Numbers"
+	},
+	{
+		"English": "12",
+		"Romanji": "Juu ni",
+		"Hiragana": "じゅうに",
+		"Kanji": "十二",
+		"Category": "Numbers"
+	},
+	{
+		"English": "13",
+		"Romanji": "Juu san",
+		"Hiragana": "じゅうさん",
+		"Kanji": "十三",
+		"Category": "Numbers"
+	},
+	{
+		"English": "14",
+		"Romanji": "Juu yon",
+		"Hiragana": "じゅうよん",
+		"Kanji": "十四",
+		"Category": "Numbers"
+	},
+	{
+		"English": "15",
+		"Romanji": "Juu go",
+		"Hiragana": "じゅうご",
+		"Kanji": "十五",
+		"Category": "Numbers"
+	},
+	{
+		"English": "16",
+		"Romanji": "Juu roku",
+		"Hiragana": "じゅうろく",
+		"Kanji": "十六",
+		"Category": "Numbers"
+	},
+	{
+		"English": "17",
+		"Romanji": "Juu nana",
+		"Hiragana": "じゅうなな",
+		"Kanji": "十七",
+		"Category": "Numbers"
+	},
+	{
+		"English": "18",
+		"Romanji": "Juu hachi",
+		"Hiragana": "じゅうはち",
+		"Kanji": "十八",
+		"Category": "Numbers"
+	},
+	{
+		"English": "19",
+		"Romanji": "Juu kyuu",
+		"Hiragana": "じゅうきゅう",
+		"Kanji": "十九",
+		"Category": "Numbers"
+	},
+	{
+		"English": "20",
+		"Romanji": "Nijuu",
+		"Hiragana": "にじゅう",
+		"Kanji": "二十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "30",
+		"Romanji": "Sanjuu",
+		"Hiragana": "さんじゅう",
+		"Kanji": "三十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "40",
+		"Romanji": "Yonjuu",
+		"Hiragana": "よんじゅう",
+		"Kanji": "四十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "50",
+		"Romanji": "Gojuu",
+		"Hiragana": "ごじゅう",
+		"Kanji": "五十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "60",
+		"Romanji": "Rokujuu",
+		"Hiragana": "ろくじゅう",
+		"Kanji": "六十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "70",
+		"Romanji": "Nanajuu",
+		"Hiragana": "ななじゅう",
+		"Kanji": "七十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "80",
+		"Romanji": "Hachijuu",
+		"Hiragana": "はちじゅう",
+		"Kanji": "八十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "90",
+		"Romanji": "Kyuujuu",
+		"Hiragana": "きゅうじゅう",
+		"Kanji": "九十",
+		"Category": "Numbers"
+	},
+	{
+		"English": "100",
+		"Romanji": "Hyaku",
+		"Hiragana": "ひゃく",
+		"Kanji": "百",
+		"Category": "Numbers"
+	}
+]
