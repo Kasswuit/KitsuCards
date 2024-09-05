@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log(sessionStorage.getItem('selectedWords'));
         const selectedWordsString = sessionStorage.getItem('selectedWords');
         const selectedWords = selectedWordsString ? selectedWordsString.split(',') : [];
+        
+        // Randomize the selected words
+        selectedWords.sort(() => Math.random() - 0.5);
+
 
         // Fetch the JSON file
         fetch('Vocabulary/Chapter1.json')
@@ -23,6 +27,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 const filteredWords = data.filter(wordOject => selectedWords.includes(wordOject.English));
                 // Store the filtered words
                 words = filteredWords;
+
+                // Randomize the words
+                words.sort(() => Math.random() - 0.5);
+
                 // Display the first word or a message if there are no words
                 if (words.length > 0) {
                     document.getElementById("wordDisplay").textContent = words[currentIndex].English;
@@ -39,8 +47,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function displayNextWord() {
         if (words.length > 0) {
             document.getElementById("wordDisplay").textContent = words[currentIndex].English;
-            currentIndex = (currentIndex + 1) % words.length;
+            currentIndex = (currentIndex + 1);
+            if (currentIndex >= words.length) {
+                displaySelfAssessment();
+            }
         }
+    }
+    // Function to display self-assessment page
+    function displaySelfAssessment() {
+        window.location.href = "selfAssessment.html";
     }
 
     // Load words from the JSON file
