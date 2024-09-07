@@ -28,8 +28,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 // Store the filtered words
                 words = filteredWords;
 
+                // Add a learned status property to each word
+                words.forEach(word => word.learned = false);
+                // Add a repititions property to each word
+                words.forEach(word => word.repititions = 5);
                 // Randomize the words
                 words.sort(() => Math.random() - 0.5);
+                // Store the words in session storage
+                sessionStorage.setItem('words', JSON.stringify(words));
 
                 // Display the first word or a message if there are no words
                 if (words.length > 0) {
