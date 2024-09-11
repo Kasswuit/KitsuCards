@@ -1,0 +1,275 @@
+[
+    {
+		"English":"Word/Vocabulary",
+		"Romanji":"Tango",
+		"Hiragana":"たんご",
+		"Kanji":"単語",
+		"Category":"Nouns"
+	},
+    {
+        "English":"Essay/Composition",
+        "Romanji":"Sakubun",
+        "Hiragana":"さくぶん",
+        "Kanji":"作文",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Exam",
+        "Romanji":"Shiken",
+        "Hiragana":"しけん",
+        "Kanji":"試験",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Letter",
+        "Romanji":"Tegami",
+        "Hiragana":"てがみ",
+        "Kanji":"手紙",
+        "Category":"Nouns"
+    },
+    {
+        "English":"E-mail",
+        "Romanji":"Meeru",
+        "Hiragana":"メール",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Guitar",
+        "Romanji":"Gitaa",
+        "Hiragana":"ギター",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Piano",
+        "Romanji":"Piano",
+        "Hiragana":"ピアノ",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Concert",
+        "Romanji":"Konsaato",
+        "Hiragana":"コンサアト",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Ticket",
+        "Romanji":"Chiketto",
+        "Hiragana":"チケット",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Kabuki",
+        "Romanji":"Kabuki",
+        "Hiragana":"かぶき",
+        "Kanji":"歌舞伎",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Ski",
+        "Romanji":"Sukii",
+        "Hiragana":"スキー",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Boxed Lunch",
+        "Romanji":"Obentoo",
+        "Hiragana":"おべんとう",
+        "Kanji":"お弁当",
+        "Category":"Nouns"
+    },
+    {
+        "English":"Pizza",
+        "Romanji":"Piza",
+        "Hiragana":"ピザ",
+        "Kanji":"",
+        "Category":"Nouns"
+    },
+    {
+        "English": "Illness/Sickness",
+        "Romanji": "Byouki",
+        "Hiragana": "びょうき",
+        "Kanji": "病気",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Medicine",
+        "Romanji": "Kusuri",
+        "Hiragana": "くすり",
+        "Kanji": "薬",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Good child",
+        "Romanji": "Iiko",
+        "Hiragana": "いいこ",
+        "Kanji": "いい子",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Color",
+        "Romanji": "Iro",
+        "Hiragana": "いろ",
+        "Kanji": "色",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Near future",
+        "Romanji": "Kondo",
+        "Hiragana": "こんど",
+        "Kanji": "今度",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Last month",
+        "Romanji": "Sengetsu",
+        "Hiragana": "せんげつ",
+        "Kanji": "先月",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Last year",
+        "Romanji": "Kyonen",
+        "Hiragana": "きょねん",
+        "Kanji": "去年",
+        "Category": "Nouns"
+    },
+    {
+        "English": "Blue",
+        "Romanji": "Aoi",
+        "Hiragana": "あおい",
+        "Kanji": "青い",
+        "Category": "い-Adjectives"
+    },
+    {
+        "English": "Red",
+        "Romanji": "Akai",
+        "Hiragana": "あかい",
+        "Kanji": "赤い",
+        "Category": "い-Adjectives"
+    },
+    {
+        "English": "Black",
+        "Romanji": "Kuroi",
+        "Hiragana": "くろい",
+        "Kanji": "黒い",
+        "Category": "い-Adjectives"
+    },
+    {
+        "English": "White",
+        "Romanji": "Shiroi",
+        "Hiragana": "しろい",
+        "Kanji": "白い",
+        "Category": "い-Adjectives"
+    },
+    {
+        "English": "Lonely",
+        "Romanji": "Sabishii",
+        "Hiragana": "さびしい",
+        "Kanji": "寂しい",
+        "Category": "い-Adjectives"
+    },
+    {
+        "English": "Young",
+        "Romanji": "Wakai",
+        "Hiragana": "わかい",
+        "Kanji": "若い",
+        "Category": "い-Adjectives"
+    },
+    {
+        "English": "Mean-spirited",
+        "Romanji": "Ijiwaru(na)",
+        "Hiragana": "いじわる(な)",
+        "Kanji": "意地悪",
+        "Category": "な-Adjectives"   
+    },
+    {
+        "English": "To Dance",
+        "Romanji": "Odoru",
+        "Hiragana": "おどる",
+        "Kanji": "踊る",
+        "Category": "う-Verbs"
+    },
+    {
+        "English": "(Something) Ends",
+        "Romanji": "Owaru",
+        "Hiragana": "(が)おわる",
+        "Kanji": "終わる",
+        "Category": "う-Verbs"
+    },
+    {
+        "English": "To Take Medicine",
+        "Romanji": "Kusuriwonomu",
+        "Hiragana": "くすりをのむ",
+        "Kanji": "薬を飲む",
+        "Category": "う-Verbs"
+    },
+    {
+        "English": "To Be Popular",
+        "Romanji": "Ninkigaaru",
+        "Hiragana": "にんきがある",
+        "Kanji": "人気がある",
+        "Category": "う-Verbs"
+    },
+    {
+        "English": "(Something) Begins",
+        "Romanji": "Hajimaru",
+        "Hiragana": "(が)はじまる",
+        "Kanji": "始まる",
+        "Category": "う-Verbs"
+    },
+    {
+        "English": "To Play (a String Instrument or Piano)",
+        "Romanji": "Hiku",
+        "Hiragana": "ひく",
+        "Kanji": "弾く",
+        "Category": "う-Verbs"
+    },
+    {
+        "English":"To Get (from a person)",
+        "Romanji":"Morau",
+        "Hiragana":"もらう",
+        "Kanji":"貰う",
+        "Category":"う-Verbs"
+    },
+    {
+        "English":"To Memorize",
+        "Romanji":"Oboeru",
+        "Hiragana":"おぼえる",
+        "Kanji":"覚える",
+        "Category":"る-Verbs"
+    },
+    {
+        "English":"To Appear/To Attend",
+        "Romanji":"Deru",
+        "Hiragana":"でる",
+        "Kanji":"出る",
+        "Category":"る-Verbs"
+    },
+    {
+        "English":"To Exit",
+        "Romanji":"Deru",
+        "Hiragana":"でる",
+        "Kanji":"出る",
+        "Category":"る-Verbs"
+    },
+    {
+        "English":"To Excercise",
+        "Romanji":"Undouwosuru",
+        "Hiragana":"うんどうをする",
+        "Kanji":"運動をする",
+        "Category":"Irregular-Verbs"
+    },
+    {
+        "English":"To take a Walk",
+        "Romanji":"Sanpoo",
+        "Hiragana":"さんぽうをする",
+        "Kanji":"散歩をする",
+        "Category":"Irregular-Verbs"
+    }
+]
