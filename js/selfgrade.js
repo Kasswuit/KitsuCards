@@ -1,5 +1,5 @@
 // Create word label function
-function createWordLabel(index, words, container)
+function createWordLabel(index, words, container, learned)
 {
     var label = document.createElement("label");
     label.className = "word";
@@ -14,12 +14,17 @@ function createWordLabel(index, words, container)
     hiraganaWord.textContent = words[index].Hiragana;
     label.appendChild(hiraganaWord);
 
-    let checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.className = "form-check-input";
-    label.appendChild(checkbox);
+    if (!learned)
+    {
+        let checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.className = "form-check-input";
+        label.appendChild(checkbox);
 
-    container.appendChild(label);
+        container.appendChild(label);
+    } else {
+        container.appendChild(label);
+    }
 }
 
 
@@ -28,20 +33,43 @@ function loadContent()
 {
     // Get container element
     var container = document.querySelector(".container");
-    // Get sessionStorage.setItem('words', JSON.stringify(words));
-    var words = JSON.parse(sessionStorage.getItem('words'));
+    
     console.log(words);
 
     for (let i = 0; i < words.length; i++)
     {
-        createWordLabel(i, words, container);
+        createWordLabel(i, words, container, words.learned);
     }
 
 }
-
+var words = JSON.parse(sessionStorage.getItem('words'));
 loadContent();
 
 // Continue Button
 document.getElementById('continueButton').addEventListener('click', () => {
     // Under construction
+    console.log("Continue button clicked");
+    // Get all checkboxes
+    var checkboxes = document.querySelectorAll("input[type='checkbox']");
+    // Update checkedWords
+    for (let i = 0; i < checkboxes.length; i++)
+    {
+        if (checkboxes[i].checked)
+        {
+            words[i].repititions -= 1;
+            if (words[i].repititions === 0)
+            {
+                words[i].learned = true;
+            }
+            console.log("checked" + words[i].English);
+        } else {
+            words[i].repititions == 5;
+            console.log("unchecked" + words[i].English);
+        }
+    }
+
+    // Save words
+    sessionStorage.setItem('words', JSON.stringify(words));
+    // Redirect to quiz page
+    window.location.href = "quiz.html";
 });

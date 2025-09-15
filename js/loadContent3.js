@@ -422,7 +422,32 @@ document.getElementById('continueButton').addEventListener('click', () => {
     console.log('Continue button clicked');
     const selectedWordsString = selectedWords.join(',');
     console.log(selectedWordsString);
-    sessionStorage.setItem('selectedWords', selectedWordsString);
+    // Convert the selected words to object from the JSON file
+    // Fetch the JSON file
+    fetch(`Vocabulary/Chapter${getChapterNumber()}.json`)
+        .then(response => response.json())
+        .then(data => {
+            // Filter the words based on the selected words
+            const filteredWords = data.filter(wordOject => selectedWords.includes(wordOject.English));
+            // Store the filtered words
+            words = filteredWords;
+
+            // Add a learned status property to each word
+            words.forEach(word => word.learned = false);
+            // Add a repititions property to each word
+            words.forEach(word => word.repititions = 5);
+            // Randomize the words
+            words.sort(() => Math.random() - 0.5);
+            // Store the words in session storage
+            sessionStorage.setItem('words', JSON.stringify(words));
+        })
+        .catch(error => {
+            console.error('Error loading the JSON file:', error);
+        });
+    console.log('Selected words:', selectedWords);
+    // Display sessionStorage.setItem('words', JSON.stringify(words)); in console
+    console.log(sessionStorage.getItem('words'));
+    // Store the selected chapter number in session storage
     sessionStorage.setItem('chapter', getChapterNumber());
     window.location.href = 'quiz.html';
 });

@@ -10,54 +10,46 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Function to load the words from the JSON file based on stored words from session storage
     function loadWords() {
-        // Retrieve selected words from session storage
-        console.log(sessionStorage.getItem('selectedWords'));
-        const selectedWordsString = sessionStorage.getItem('selectedWords');
-        const selectedWords = selectedWordsString ? selectedWordsString.split(',') : [];
-        
-        // Randomize the selected words
-        selectedWords.sort(() => Math.random() - 0.5);
 
+            // Get words from session storage
+            words = JSON.parse(sessionStorage.getItem('words'));
+            // Get chapter number from session storage
+            const chapterNumber = sessionStorage.getItem('chapterNumber');
 
-        // Fetch the JSON file
-        fetch('Vocabulary/Chapter1.json')
-            .then(response => response.json())
-            .then(data => {
-                // Filter the words based on the selected words
-                const filteredWords = data.filter(wordOject => selectedWords.includes(wordOject.English));
-                // Store the filtered words
-                words = filteredWords;
-
-                // Add a learned status property to each word
-                words.forEach(word => word.learned = false);
-                // Add a repititions property to each word
-                words.forEach(word => word.repititions = 5);
-                // Randomize the words
-                words.sort(() => Math.random() - 0.5);
-                // Store the words in session storage
-                sessionStorage.setItem('words', JSON.stringify(words));
-
-                // Display the first word or a message if there are no words
-                if (words.length > 0) {
+            // Display the first word or a message if there are no words
+            if (words.length > 0) {
+                if (!words[0].learned) {
                     document.getElementById("wordDisplay").textContent = words[currentIndex].English;
                 } else {
-                    document.getElementById("wordDisplay").textContent = "No words to display";
+                    displayNextWord();
                 }
-            })
-            .catch(error => {
-                console.error('Error loading the JSON file:', error);
-            });
+            } else {
+                document.getElementById("wordDisplay").textContent = "No words to display";
+            }
     }
 
     // Function to display the next word
     function displayNextWord() {
-        if (words.length > 0) {
-            document.getElementById("wordDisplay").textContent = words[currentIndex].English;
-            currentIndex = (currentIndex + 1);
-            if (currentIndex >= words.length) {
-                displaySelfAssessment();
+        console.log(words);
+        console.log(currentIndex);
+        let attempts = 0; // To prevent an infinite loop
+        const maxAttempts = words.length; // Maximum attempts equal to the array size
+
+        do {
+            currentIndex = (currentIndex + 1) % words.length; // Wrap around using modulo
+            attempts++;
+
+            if (attempts > maxAttempts) { // Check for infinite loop risk
+                console.log("All words have been learned.");
+                break;
             }
-        }
+
+            if (currentIndex === 0) {
+                displaySelfAssessment(); // Display self-assessment when looping back to start
+            }
+        } while (words[currentIndex].learned);
+
+        document.getElementById("wordDisplay").textContent = words[currentIndex].English;
     }
     // Function to display self-assessment page
     function displaySelfAssessment() {
