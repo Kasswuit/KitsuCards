@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitsu Cards</title>
+    <!-- Google Fonts for Klee One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ff4e091cfd.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+     <link rel="icon" type="image/png" sizes="32x32" href="Images/icon.png">
+</head>
+<body>
+    <!-- Main Header -->
+    <div class="container mt-3">
+        <h4 class="text-center">Kasswuit's</h4>
+        <h1 class="text-center">Kitsu Cards!</h1>
+        <div class="container d-flex align-items-center">
+            <nav class="text-center mx-auto mt-4">
+                <a class="title-nav-item" href="index.html">Back</a>
+                <a class="title-nav-item" href="https://genki3.japantimes.co.jp/en/" target="_blank">Get Genki</a>
+            </nav>
+        </div>   
+    </div>
+    <!-- Help Grid -->
+     <div class = "container-fluid mt-4">
+        <h4 class="text-center">Welcome to Kasswuit's Kitsu Cards!</h4>
+        <h5 class="text-center">(Note: This page is still under construction)</h5>
+        <h5 class="text-center">Here, you can learn Japanese using the Genki III curriculum. The vocabulary is sorted by chapters. In each chapter, you can select the specific categories or words you wish to learn. Then, those words will be shuffled. 
+            You will see the word presented in English, and the challenge is for you to write it in Japanese on a seperate sheet of paper. At the end, you will self grade yourself on the words you got right, and repeat the process again. You will need
+            to get each word correct 3 times in a row before you complete that word.
+        </h5>
+     </div>
+    <!-- Footer -->
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer">
+                    <p class="text-center">© <span id="year"></span> Kasswuit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+    <script type="module" src="./js/app.js"></script>
+
+</body>
+</html>
